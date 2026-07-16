@@ -71,8 +71,8 @@ excel-vision-mcp
 ### Install from source
 
 ```bash
-git clone https://github.com/VOYAGER-Inc/excel-mcp-server.git
-cd excel-mcp-server
+git clone https://github.com/VOYAGER-Inc/excel-vision-mcp.git
+cd excel-vision-mcp
 uv sync
 uv run excel-vision-mcp
 ```
@@ -378,8 +378,8 @@ The server uses `read_only` mode for data iteration and processes images in-memo
 Contributions are welcome! Please open an issue first to discuss what you'd like to change.
 
 ```bash
-git clone https://github.com/VOYAGER-Inc/excel-mcp-server.git
-cd excel-mcp-server
+git clone https://github.com/VOYAGER-Inc/excel-vision-mcp.git
+cd excel-vision-mcp
 uv sync
 uv run pytest  # Run the test suite
 ```

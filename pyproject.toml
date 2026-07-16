@@ -40,9 +40,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/VOYAGER-Inc/excel-mcp-server"
-Repository = "https://github.com/VOYAGER-Inc/excel-mcp-server"
-Issues = "https://github.com/VOYAGER-Inc/excel-mcp-server/issues"
+Homepage = "https://github.com/VOYAGER-Inc/excel-vision-mcp"
+Repository = "https://github.com/VOYAGER-Inc/excel-vision-mcp"
+Issues = "https://github.com/VOYAGER-Inc/excel-vision-mcp/issues"
 
 [project.scripts]
 excel-vision-mcp = "excel_vision_mcp.server:main"
