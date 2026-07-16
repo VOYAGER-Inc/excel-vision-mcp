@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.voyager-inc/excel-vision-mcp",
+  "description": "Excel reading MCP with embedded image extraction — AI agents see text and images in xlsx files",
+  "repository": {
+    "url": "https://github.com/VOYAGER-Inc/excel-vision-mcp",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "excel-vision-mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
