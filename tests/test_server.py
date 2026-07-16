@@ -3,7 +3,7 @@
 import pytest
 from mcp.types import ImageContent, TextContent
 
-from excel_mcp.server import (
+from excel_vision_mcp.server import (
     _validate_file_path,
     extract_images,
     get_workbook_overview,

@@ -242,7 +242,7 @@ wheels = [
 ]
 
 [[package]]
-name = "excel-mcp-server"
+name = "excel-vision-mcp"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [

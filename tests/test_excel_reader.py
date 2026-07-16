@@ -2,7 +2,7 @@
 
 import pytest
 
-from excel_mcp.excel_reader import (
+from excel_vision_mcp.excel_reader import (
     get_workbook_summary,
     read_all_sheets_data,
     read_sheet_data,

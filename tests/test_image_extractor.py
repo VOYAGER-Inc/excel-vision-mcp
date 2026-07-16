@@ -1,6 +1,6 @@
 """Tests for dual-strategy image extraction and archive counting."""
 
-from excel_mcp.image_extractor import count_images_in_archive, extract_all_images
+from excel_vision_mcp.image_extractor import count_images_in_archive, extract_all_images
 
 
 class TestCountImagesInArchive:

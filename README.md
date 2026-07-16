@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Excel MCP Server
+# 📊 Excel Vision MCP
 
 **The first MCP server that lets AI agents _see_ images inside your spreadsheets.**
 
@@ -9,7 +9,7 @@ Read Excel files with full content extraction — cell data, formulas, merged ce
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io)
-[![PyPI](https://img.shields.io/pypi/v/excel-mcp-server.svg)](https://pypi.org/project/excel-mcp-server/)
+[![PyPI](https://img.shields.io/pypi/v/excel-vision-mcp.svg)](https://pypi.org/project/excel-vision-mcp/)
 
 [Installation](#-quick-start) · [Tools](#-available-tools) · [Configuration](#-configuration) · [How It Works](#-how-it-works) · [FAQ](#-faq)
 
@@ -53,19 +53,19 @@ The result: **zero images left behind**, with position metadata when available.
 No installation needed — runs directly:
 
 ```bash
-uvx excel-mcp-server
+uvx excel-vision-mcp
 ```
 
 ### Install via `pip`
 
 ```bash
-pip install excel-mcp-server
+pip install excel-vision-mcp
 ```
 
 Then run:
 
 ```bash
-excel-mcp
+excel-vision-mcp
 ```
 
 ### Install from source
@@ -74,7 +74,7 @@ excel-mcp
 git clone https://github.com/VOYAGER-Inc/excel-mcp-server.git
 cd excel-mcp-server
 uv sync
-uv run excel-mcp
+uv run excel-vision-mcp
 ```
 
 ---
@@ -92,7 +92,7 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
   "mcpServers": {
     "excel-reader": {
       "command": "uvx",
-      "args": ["excel-mcp-server"]
+      "args": ["excel-vision-mcp"]
     }
   }
 }
@@ -107,7 +107,7 @@ Edit `.cursor/mcp.json` in your project root:
   "mcpServers": {
     "excel-reader": {
       "command": "uvx",
-      "args": ["excel-mcp-server"]
+      "args": ["excel-vision-mcp"]
     }
   }
 }
@@ -122,7 +122,7 @@ Edit your MCP settings file:
   "mcpServers": {
     "excel-reader": {
       "command": "uvx",
-      "args": ["excel-mcp-server"]
+      "args": ["excel-vision-mcp"]
     }
   }
 }
@@ -137,7 +137,7 @@ Edit `~/.gemini/config/mcp_config.json`:
   "mcpServers": {
     "excel-reader": {
       "command": "uvx",
-      "args": ["excel-mcp-server"]
+      "args": ["excel-vision-mcp"]
     }
   }
 }

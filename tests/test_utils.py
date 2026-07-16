@@ -5,7 +5,7 @@ import io
 
 from PIL import Image as PILImage
 
-from excel_mcp.utils import (
+from excel_vision_mcp.utils import (
     bytes_to_base64,
     format_file_size,
     image_to_base64,
