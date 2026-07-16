@@ -9,7 +9,7 @@ Read Excel files with full content extraction — cell data, formulas, merged ce
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-purple.svg)](https://modelcontextprotocol.io)
-[![PyPI](https://img.shields.io/pypi/v/excel-vision-mcp.svg)](https://pypi.org/project/excel-vision-mcp/)
+[![PyPI](https://img.shields.io/pypi/v/excel-vision-mcp)](https://pypi.org/project/excel-vision-mcp/)
 
 [Installation](#-quick-start) · [Tools](#-available-tools) · [Configuration](#-configuration) · [How It Works](#-how-it-works) · [FAQ](#-faq)
 
