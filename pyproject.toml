@@ -1,6 +1,6 @@
 [project]
 name = "excel-vision-mcp"
-version = "1.0.2"
+version = "1.0.3"
 description = "MCP Server for reading Excel files with embedded image extraction. The first MCP that lets AI agents SEE images inside your spreadsheets."
 requires-python = ">=3.11"
 license = {text = "MIT"}

@@ -388,7 +388,7 @@ uv run pytest  # Run the test suite
 
 [MIT](LICENSE) — use it however you want.
 
-<!-- mcp-name: io.github.voyager-inc/excel-vision-mcp -->
+<!-- mcp-name: io.github.VOYAGER-Inc/excel-vision-mcp -->
 
 ---
 
